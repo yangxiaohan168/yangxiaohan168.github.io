@@ -147,7 +147,7 @@
   var searchSelector = '#local-search-input';
   var resultSelector = '#local-search-result';
   modal.on('show.bs.modal', function() {
-    var path = CONFIG.search_path || "/local-search.xml?v=1d0150d983";
+    var path = CONFIG.search_path || "/local-search.xml?v=0da6c052fb";
     localSearchFunc(path, searchSelector, resultSelector);
   });
   modal.on('shown.bs.modal', function() {
